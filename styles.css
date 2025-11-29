@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.plane-color{
+    color: #2F80ED;
+}
+.padding-left-80px{
+    padding-left: 80px;
+}
+.gap-10px{
+    gap: 10px;
+}
+.font-family-sfProDisplay{
+    font-family: 'SF Pro Display', sans-serif;
+}
+.color-black{
+    color: #1B1F2D;
+}
