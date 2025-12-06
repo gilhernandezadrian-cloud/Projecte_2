@@ -16,17 +16,17 @@
         <p class="font-family-sfProDisplay color-black">my Dream Place</p>
     </div>
     <div class="margin-0px-auto max-width-400px">
-        <form action="/">
+        <form action="/" class="flex flex-direction-column gap-10px">
             <h1  class="text-align-center">Sign in</h1>
-            <div class="text-align-center flex flex-direction-column">
+            <div class="text-align-center flex flex-direction-column ">
                 <label class="text-align-start" for="email">Email Address</label>
-                <input type="email" id="email">
+                <input class="background-color-grey-light" type="email" id="email">
             </div>
             <div class="text-align-center flex flex-direction-column">
                 <label class="text-align-start" for="password">Password</label>
-                <input type="password" id="password">
+                <input class="background-color-grey-light" type="password" id="password">
             </div>
-            <div>
+            <div class="flex flex-direction-column gap-10px">
                 <div class="flex justify-content-space-between">
                     <div>
                         <input type="checkbox" id="checkbox">
@@ -36,34 +36,31 @@
                         <a class="color-blue underline-none" href="#">Forgot paswword?</a>
                     </div>
                 </div>
-                <div class="text-align-center background-color-blue paddin-10px-20px border-radius-4px">
+                <div class="text-align-center background-color-blue paddin-10px-20px border-radius-6px">
                     <a class="color-white underline-none" href="#">Continue with email</a>
                 </div>
                 <div class="position-relative flex justify-content-center align-items-center">
-                    <!-- <div class="padding-left-80px padding-right-80px">
-                        
-                    </div> -->
                     <p class="position-absolute z-index-1 background-color-white padding-right-20px padding-left-20px">or use one of these options</p>
                     <hr class="width-100-percent">
                 </div>
-                <div>
-                    <a href="#">
-                        <div>
-                            <img src="/images/iconGoogle.png" alt="Icono Google">
+                <div class="border-1px-solid-lightGray border-radius-6px">
+                    <a href="#" class="underline-none">
+                        <div class="flex justify-content-center align-items-center gap-10px">
+                            <img class="width-25px" src="/images/iconGoogle.png" alt="Icono Google">
                             <p>Continue with Google</p>
                         </div>
                     </a>
                 </div>
-                <div>
-                    <a href="#">
-                        <div>
-                            <i class="fa-brands fa-square-facebook"></i>
+                <div class="border-1px-solid-lightGray background-color-blue-facebook border-radius-6px">
+                    <a href="#" class="underline-none color-white">
+                        <div class="flex justify-content-center align-items-center gap-10px">
+                            <i class="fa-brands fa-square-facebook width-25px" alt="Icono Google"></i>
                             <p>Continue with Facebook</p>
                         </div>
                     </a>
                 </div>
-                <div>
-                    <p>Don’t have an account? <a href="">Register</a></p>
+                <div class="flex justify-content-center">
+                    <p>Don’t have an account? <a href="#" class="color-blue underline-none">Register</a></p>
                 </div>
             </div>
         </form>
