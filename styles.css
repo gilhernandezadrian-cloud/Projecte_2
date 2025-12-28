@@ -138,6 +138,9 @@
 .padding-20px{
     padding: 20px;
 }
+.padding-left-0px{
+    padding-left: 0px;
+}
 
 /* -- POSITIONS -- */
 .position-absolute{
@@ -170,9 +173,6 @@
 .max-width-1000px{
     max-width: 1000px;
 }
-.width-520px{
-    width: 520px;
-}
 .max-width-400px{
     max-width: 400px;
 }
@@ -188,6 +188,12 @@
 .width-85-percent{
     width: 85%;
 }
+.width-520px{
+    width: 520px;
+}
+.width-295px{
+    width: 295px;
+}
 .width-100px{
     width: 100px;
 }
@@ -197,16 +203,21 @@
 .width-25px{
     width: 25px;
 }
+
 /* -- HEIGHT -- */
-.height-35px{
-    height: 35px;
-}
 .height-300px{
     height: 300px;
+}
+.height-220px{
+    height: 220px;
+}
+.height-35px{
+    height: 35px;
 }
 .height-60vh{
     height: 60vh;
 }
+
 /* -- CLASES TIPO FONT FAMILY -- */
 .font-size-14px{
     font-size: 14px;
