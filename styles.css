@@ -112,6 +112,16 @@
 .background-img-sydney {
   background-image: url("/images/Sydney_image.jpg");
 }
+.background-img-restaurant {
+  background-image: url("/images/Restaurant_image.jpg");
+}
+.background-img-Mesmerizing {
+  background-image: url("/images/Mesmerizing_image.jpg");
+}
+.background-aerial-view {
+  background-image: url("/images/img_startHere/aerial_view_kelingkng_beach.jpg");
+}
+
 .background-size-cover {
   background-size: cover;
 }
@@ -119,6 +129,9 @@
 
 .padding-left-80px {
   padding-left: 80px;
+}
+.padding-left-40px {
+  padding-left: 40px;
 }
 .padding-right-80px {
   padding-right: 80px;
@@ -172,6 +185,9 @@
 }
 .right-0 {
   right: 0;
+}
+.scale-x-1 {
+  transform: scaleX(-1);
 }
 
 /* -- WIDTH -- */
