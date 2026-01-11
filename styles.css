@@ -130,6 +130,9 @@
 .background-aerial-view {
   background-image: url("/images/img_startHere/aerial_view_kelingkng_beach.jpg");
 }
+.background-isoated-right-hand-with-smartphone {
+  background-image: url("/images/img_startHere/isolated_right_hand_with_smartphone.png");
+}
 
 .background-size-cover {
   background-size: cover;
@@ -150,6 +153,9 @@
 }
 .padding-right-80px {
   padding-right: 80px;
+}
+.padding-right-50px {
+  padding-right: 50px;
 }
 .padding-right-40px {
   padding-right: 40px;
@@ -188,6 +194,12 @@
 }
 .position-relative {
   position: relative;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.rotate-10deg {
+  transform: rotate(10deg) scaleX(-1);
 }
 .z-index-1 {
   z-index: 1;
@@ -236,6 +248,9 @@
 .width-85-percent {
   width: 85%;
 }
+.width-750px {
+  width: 750px;
+}
 .width-520px {
   width: 520px;
 }
@@ -256,6 +271,9 @@
 }
 
 /* -- HEIGHT -- */
+.height-610px {
+  height: 610px;
+}
 .height-300px {
   height: 300px;
 }
